@@ -1,0 +1,343 @@
+#me {
+  padding: 0 0 0 0;
+  background: #161616;
+}
+
+#me .container .row {
+  padding-top: 6em;
+  padding-bottom: 4em;
+}
+
+#me h1 {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+}
+
+.display-picture {
+  width: 300px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  font-family: 'Roboto Mono';
+  font-weight: 700;
+}
+
+body, html {
+  color: #fff;
+  min-height: 100%;
+  height: 100%;
+  background-color: #161616;
+  font-family: 'Merriweather', serif;
+}
+
+.profileinfo {
+  padding-top: 1em;
+}
+
+#do {
+  background: #000000;
+  background: -webkit-linear-gradient(to bottom, #161616, #000000);
+  background: linear-gradient(to bottom, #161616, #000000);
+}
+
+#works {
+  background: #000000;
+  background: -webkit-linear-gradient(to bottom, #161616, #000000);
+  background: linear-gradient(to bottom, #161616, #000000);
+}
+
+.smart-scroll {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+
+section, footer {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #7232f2;
+}
+
+.btn {
+  font-family: 'Roboto Mono';
+  background: transparent;
+  color: #F2F2F2;
+  transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
+.btn-white {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  border-radius: 10px;
+}
+
+.btn-white:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-purple {
+  color: #fff;
+  background-color: transparent;
+  border-color: #7232f2;
+  border-radius: 4px;
+}
+
+.btn-purple:hover {
+  color: #fff;
+  background-color: #7232f2;
+  border-color: #7232f2;
+}
+
+.btn-red {
+  color: #fff;
+  background-color: transparent;
+  border-color: #bd2130;
+  border-radius: 4px;
+}
+
+.btn-red:hover {
+  color: #fff;
+  background-color: #bd2130;
+  border-color: #bd2130;
+}
+
+/* About Section */
+
+#about {
+  background: #20115b;
+}
+
+#about h1 {
+  font-family: 'Roboto Mono';
+  font-weight: 700;
+}
+
+/* Animations */
+
+@keyframes Pulse {
+  25% {
+    transform: scale(1.5);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: #BA55D3;
+}
+
+.navbar-dark .navbar-toggler-icon {
+}
+
+.bg-dark {
+  background-color: #161616!important;
+}
+
+span, p {
+  font-family: 'Roboto Mono';
+}
+
+a {
+  text-decoration: none !important;
+}
+
+#about dl, ol, ul {
+  list-style: none;
+}
+
+#about ul li:before {
+  font-family: 'FontAwesome';
+  content: '\f04e';
+  margin: 0 10px 0 -15px;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #BA55D3;
+}
+
+.heading {
+  padding-bottom: 1em;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#do h2 {
+  font-family: 'Roboto Mono';
+  font-weight: 700;
+}
+
+#do p {
+  color: #7232f2;
+}
+
+.list-pad {
+  margin: 0 !important;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#do .card .card-body .card-text {
+  padding: 1em;
+  color: #fff;
+}
+
+#do .card .card-title {
+  color: #fff;
+  font-family: 'Roboto Mono';
+  font-weight: 700;
+}
+
+#do ul li {
+  margin-left: 2em;
+}
+
+#contact h1 {
+  font-family: 'Roboto Mono';
+  font-weight: 700;
+}
+
+ul li {
+  font-family: 'Roboto Mono';
+  font-size: 14px;
+}
+
+.card {
+  color: rgb(168, 178, 209);
+  background-color: #20115b;
+}
+
+#do .myworks > .row {
+  padding-bottom: 4em;
+}
+
+@media (max-width: 575.98px) {
+  #do .card-margin-right {
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #do .card-margin-left {
+    margin: 0 !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #do .card-margin-right {
+    margin: 0 !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #do .card-margin-left {
+    margin: 0 !important;
+  }
+}
+
+#do .project-item {
+  padding-bottom: 1em;
+}
+
+#do .card-margin-right {
+  margin: 0 0 0 -5em;
+}
+
+#do .card-margin-left {
+  margin: 0 -5em 0 0;
+}
+
+.modal-dialog-scrollable .modal-footer, .modal-dialog-scrollable .modal-header {
+  border: 0;
+}
+
+.modal .modal-body > h4 {
+  font-family: 'Roboto Mono';
+  font-weight: 700;
+}
+
+.social-media-icons {
+  font-size: 24px;
+}
+
+.display-picture {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-image: url("../../assets/img/leo.jpg");
+  background-size: cover;
+  transition: ease-in-out .3s;
+  z-index: 2;
+}
+
+.display-picture:before {
+  content: ' ';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: inherit;
+  background-position: bottom;
+  filter: blur(40px) saturate(0%);
+  transform: scaleX(0.4);
+  transition: ease-in-out .4s;
+  border-radius: 120px;
+  transform-origin: right;
+  opacity: 0;
+  z-index: -1;
+}
+
+.display-picture:hover {
+  border-radius: 0;
+  width: 350px;
+  height: 350px;
+}
+
